@@ -27,7 +27,7 @@ try:
                     image_paths.append("images/rain.png")
                 elif sky == "Snow":
                     image_paths.append("images/snow.png")
-                elif sky == "Cloud":
+                elif sky == "Clouds":
                     image_paths.append("images/cloud.png")
             st.image(image_paths, width=80)
 except KeyError as error:
